@@ -1,0 +1,14 @@
+CREATE DATABASE desafio_fiotech;
+
+USE desafio_fiotech;
+
+CREATE TABLE base_de_dados
+(
+	id int unsigned not null auto_increment,
+	nome_arquivo varchar(45) not null,
+	remetente varchar(45) not null,
+	data_hora datetime,
+	corpo_mail varchar(255),
+	PRIMARY KEY (id)
+);
+
